@@ -26,7 +26,7 @@ fun List<Task>.tasksAsTable() = this.joinToString(
 object TaskRepository{
     val tasks = mutableListOf(
         Task("clearning", "Clean the house", Priority.Low),
-        Task("gardening", "Mow the Law", Priority.Medium),
+        Task("gardening", "Mow the Lawn", Priority.Medium),
         Task("shopping", "Buy the groceries", Priority.High),
         Task("painting", "Paint the fence", Priority.Medium)
     )
